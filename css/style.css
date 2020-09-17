@@ -120,3 +120,27 @@ ul li {
     text-transform: uppercase;
     font-size: 18px;
 }
+
+
+/* GRAY BAR */
+
+.gray-bar {
+    background-color: hsl(0, 0%, 82.7%);
+    width: 100vw;
+    height: 15vh;
+}
+
+.gray-bar h2,
+p {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.gray-bar p {
+    color: hsl(0, 0%, 50.2%);
+    font-size: 20px;
+}
+
+.gray-bar h2 {
+    font-size: 26px;
+}
