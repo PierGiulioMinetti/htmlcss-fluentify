@@ -258,3 +258,15 @@ p {
     transform: translateY(-50%);
     color: white;
 }
+
+.help-button {
+    position: fixed;
+    bottom: 0;
+    right: 10vw;
+    width: 120px;
+    height: 80px;
+    background-color: hsl(80.4, 97.9%, 37.1%);
+    text-align: center;
+    line-height: 80px;
+    border-radius: 4px 4px 0 4px;
+}
