@@ -150,17 +150,15 @@ p {
 /* SECTION TWO */
 
 .section-two-container-70vw {
-    background-color: steelblue;
     width: 70vw;
     height: 80vh;
     margin: auto;
 }
 
 .section-two-column {
-    background-color: red;
     width: calc(100% / 3);
     height: 100%;
-    border: 1px solid black;
+    text-align: center;
 }
 
 .section-two-column img {
@@ -175,4 +173,20 @@ p {
     font-size: 24px;
     text-align: center;
     color: hsl(80.4, 97.9%, 37.1%);
+}
+
+.section-two-column h2::after {
+    content: '';
+    height: 1px;
+    width: 70px;
+    display: block;
+    background-color: grey;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.section-two-column p {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
 }
