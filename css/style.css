@@ -150,9 +150,10 @@ p {
 /* SECTION TWO */
 
 .section-two-container-70vw {
+    background-color: royalblue;
     width: 70vw;
     height: 80vh;
-    margin: auto;
+    margin: 50px auto;
 }
 
 .section-two-column {
@@ -189,4 +190,30 @@ p {
     margin-top: 20px;
     text-align: center;
     padding: 10px;
+}
+
+
+/* SECTION 3 */
+
+.section-three-container-50prc {
+    background-color: red;
+    border: 1px solid black;
+    width: 50%;
+    height: 100%;
+}
+
+.section-three-container-50prc h2 {
+    font-size: 39px;
+    padding-left: 80px;
+}
+
+.section-three-container-50prc p {
+    padding-left: 80px;
+    margin-top: 20px;
+}
+
+.section-three-container-50prc a {
+    margin-top: 50px;
+    display: block;
+    padding-left: 80px;
 }
