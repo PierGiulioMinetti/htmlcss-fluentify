@@ -230,6 +230,7 @@ p {
     width: 40%;
     height: 25vh;
     line-height: 25vh;
+    position: relative;
 }
 
 .gray-bar-container-items span {
@@ -247,4 +248,13 @@ p {
 
 .fas.fa-sort-down {
     padding-left: 100px;
+}
+
+.gray-bar-container-items .big-green-botton {
+    display: inline-block;
+    margin-left: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
 }
