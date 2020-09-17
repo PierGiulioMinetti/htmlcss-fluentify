@@ -217,3 +217,34 @@ p {
     display: block;
     padding-left: 80px;
 }
+
+
+/* GRAY BAR BOTTOM */
+
+.gray-bar.bottom {
+    height: 25vh;
+}
+
+.gray-bar-container-items {
+    background-color: blue;
+    width: 40%;
+    height: 25vh;
+    line-height: 25vh;
+}
+
+.gray-bar-container-items span {
+    padding-right: 30px;
+}
+
+.gray-bar-container-items span:nth-child(2) {
+    color: rgb(14, 185, 114);
+    padding: 5px 5px 5px 0px;
+    max-width: 200px;
+    border-bottom: 1px solid black;
+    display: inline-block;
+    line-height: 25px;
+}
+
+.fas.fa-sort-down {
+    padding-left: 100px;
+}
