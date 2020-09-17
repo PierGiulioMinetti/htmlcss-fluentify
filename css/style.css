@@ -1,0 +1,90 @@
+/* GENERAL STYLE */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* UTILITY */
+
+.clear-fix::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+
+/* SECTION-ONE */
+
+.section-one-100vw {
+    background-color: turquoise;
+    width: 100vw;
+    height: 90vh;
+    background-image: url(../img/background-header.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.section-one-top-bar {
+    background-color: violet;
+    width: 80vw;
+    height: 12%;
+    margin: auto;
+    line-height: 75px;
+    color: white
+}
+
+.section-one-top-bar.clear-fix::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.section-one-logo {
+    background-color: wheat;
+    width: 15%;
+    height: 100%;
+    vertical-align: middle;
+    display: table-cell;
+    position: relative;
+    padding: 10px;
+}
+
+.section-one-menu {
+    background-color: rgb(153, 99, 0);
+    width: 50%;
+    height: 100%;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 14px;
+}
+
+.button-blue {
+    min-width: 100px;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 44px;
+}
+
+.button-green {
+    border: 1px solid black;
+    color: white;
+    background-color: hsl(80.4, 97.9%, 37.1%);
+    line-height: 44px;
+    border-radius: 5px;
+}
