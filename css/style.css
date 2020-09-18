@@ -114,12 +114,13 @@ ul li {
 .big-green-botton {
     background-color: hsl(80.4, 97.9%, 37.1%);
     width: 250px;
-    height: 100px;
+    /* height: 100px; */
     text-align: center;
-    line-height: 100px;
+    line-height: 25px;
     border-radius: 5px;
     text-transform: uppercase;
     font-size: 18px;
+    padding: 18px 0 18px 0;
 }
 
 
@@ -128,13 +129,14 @@ ul li {
 .gray-bar {
     background-color: hsl(0, 0%, 82.7%);
     width: 100vw;
-    height: 15vh;
+    /* height: 25vh; */
 }
 
 .gray-bar h2,
 p {
     text-align: center;
-    padding-top: 20px;
+    /* padding-top: 20px; */
+    /* line-height: 30px; */
 }
 
 .gray-bar p {
@@ -144,15 +146,15 @@ p {
 
 .gray-bar h2 {
     font-size: 26px;
+    /* padding-top: 40px; */
 }
 
 
 /* SECTION TWO */
 
 .section-two-container-70vw {
-    background-color: royalblue;
     width: 70vw;
-    height: 80vh;
+    /* height: 90vh; */
     margin: 50px auto;
 }
 
@@ -160,6 +162,7 @@ p {
     width: calc(100% / 3);
     height: 100%;
     text-align: center;
+    line-height: 1.7;
 }
 
 .section-two-column img {
@@ -196,10 +199,9 @@ p {
 /* SECTION 3 */
 
 .section-three-container-50prc {
-    background-color: red;
-    border: 1px solid black;
     width: 50%;
     height: 100%;
+    margin-top: 80px;
 }
 
 .section-three-container-50prc h2 {
@@ -216,20 +218,21 @@ p {
     margin-top: 50px;
     display: block;
     padding-left: 80px;
+    color: #5586bc;
 }
 
 
 /* GRAY BAR BOTTOM */
 
 .gray-bar.bottom {
-    height: 25vh;
+    /* height: 25vh; */
+    line-height: 80px;
 }
 
 .gray-bar-container-items {
-    background-color: blue;
     width: 40%;
-    height: 25vh;
-    line-height: 25vh;
+    /* height: 25vh; */
+    /* line-height: 25vh; */
     position: relative;
 }
 
@@ -263,10 +266,16 @@ p {
     position: fixed;
     bottom: 0;
     right: 10vw;
-    width: 120px;
-    height: 80px;
+    width: 80px;
+    height: 50px;
     background-color: hsl(80.4, 97.9%, 37.1%);
     text-align: center;
-    line-height: 80px;
+    /* line-height: 50px; */
     border-radius: 4px 4px 0 4px;
+    color: white;
+    font-size: 18px;
+}
+
+.big-green-botton a {
+    /* line-height: 10vh; */
 }
