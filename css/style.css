@@ -111,6 +111,22 @@ header {
 }
 
 
+/* tablet */
+
+@media screen and (max-width:768px) {
+    .header-menu.float-left {
+        float: none;
+    }
+    .header-menu.float-left ul li a {
+        font-size: 12px;
+    }
+    .header-button.float-right {
+        float: none;
+        text-align: center;
+    }
+}
+
+
 /* SECTION ONE */
 
 .section-one-main-container {
@@ -139,6 +155,18 @@ header {
     font-size: 55px;
     margin-bottom: 80px;
     padding-top: 265px;
+}
+
+
+/* tablet */
+
+@media screen and (max-width:768px) {
+    .section-one-container-50 {
+        width: 100%;
+    }
+    .section-one-container-50 h1 {
+        font-size: 46px;
+    }
 }
 
 
@@ -217,6 +245,28 @@ header {
 }
 
 
+/* tablet */
+
+@media screen and (max-width:768px) {
+    .section-two-container-80 {
+        width: 100%;
+    }
+    .section-two-col {
+        width: 30%;
+        padding: 5px;
+    }
+    .section-two-col:nth-child(2) {
+        margin: 0 calc((100% - 90%) / 2);
+    }
+    .section-two-col h2::after {
+        display: none;
+    }
+    .section-two-col h2 {
+        font-size: 27px;
+    }
+}
+
+
 /* <!-- SECTION 3 --> */
 
 .section-three-container-80 {
@@ -246,6 +296,17 @@ header {
     margin-top: 35px;
     display: inline-block;
     font-size: 19px;
+}
+
+@media screen and (max-width:768px) {
+    .section-three-box-items:first-child {
+        display: none;
+    }
+    .section-three-box-items:nth-child(2) {
+        width: 100%;
+        background-image: url(../img/mountain.svg);
+        background-repeat: no-repeat;
+    }
 }
 
 
@@ -313,6 +374,22 @@ header {
 
 #visualizza:hover {
     color: green;
+}
+
+@media screen and (max-width: 768px) {
+    .gray-bar-bottom-items.float-left {
+        width: 30%;
+        display: none;
+    }
+    .gray-bar-bottom-items h2 {
+        font-size: 14px;
+    }
+    .gray-bar-bottom-items.float-right {
+        width: 100%;
+    }
+    .gray-bar-bottom-items ul li:first-child {
+        display: none;
+    }
 }
 
 
